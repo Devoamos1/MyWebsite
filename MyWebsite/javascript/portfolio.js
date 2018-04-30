@@ -10,3 +10,12 @@
 alert("Hello world");//Display Hello world
 confirm("We will learn!");//OK and Cancel
 prompt("You ready?");//
+
+$(document).ready(function(){
+  $("#button").click(function(e) {
+    e.preventDefault();
+    $('html, body').animate({
+      scrollTop: $($.attr(this, 'href')).offset().top
+    }, 5000);
+  });
+});

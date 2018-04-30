@@ -1,0 +1,419 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : 27-Jul-2017, 15:26:50
+    Author     : Devonte1
+*/
+
+/*
+    Visibilty:hidden - Hides element but keeps space
+    display:hidden - Hides space and hides element
+*/
+
+/*
+    Block - <div>, <h1>, <p>, <ul>, <table>, <section>, <article>.
+    Inline - <span>, <b>, <td>, <a>, <img>.
+*/
+
+/*
+
+Use . for classes
+Use Hash# for ID's
+#welcome > text = Child selector
+
+
+*/
+
+
+
+/*
+selector {                          p {                                    }
+    property:propertyvalue;             background:202023;
+}                                   }
+*/
+
+
+/*New Home page *//****************/
+.newhomebody{
+    background-color:white;
+    width:1000px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+header{
+    float:left;
+    margin-right: 10px;
+
+}
+.headerlogo > img{
+    height: 60px;
+    width:60px;
+}
+.searchbox{
+    float:right;
+    padding:5px;
+    margin: 10px 10px;
+    width:200px;
+}
+#headername{
+    font-size:40px;
+    color:#603813;
+    padding: 15px;
+    margin:8px 0px;
+}
+#welcomeimage{
+    float:left;
+    width:700px;
+
+}
+#coffeeofthemonth{
+    float:right;
+    width:300px;
+}
+#welcometext{
+
+    float:left;
+    width:70%;
+    font-size:12px;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+#welcometext > header{
+    color:#603813;
+    font-size:15px;
+    font-weight:bold;
+    margin:bottom:3px;
+
+}
+
+#events{
+    float:left;
+    width:30%;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+#events > header{
+
+    margin-left:10px;
+    color:#603813;
+    font-size:15px;
+    margin-bottom:3px;
+    font-weight:bold;
+}
+
+#events > ul{
+
+    list-style: none;
+}
+
+#events > ul > li{
+
+    margin-bottom:3px;
+}
+
+
+
+
+
+/*Coffee details*/
+.coffeedetailsbackground{
+
+    background-color:white;
+}
+
+
+
+/*All Coffees*/
+.coffeedetailsbackground{
+
+    background-color:white;
+}
+
+/******************************/
+
+
+
+
+
+/* Homepage*/
+ body{/*selector*/
+     background-color: #1f1f1f/*property name and value e.g. background*/
+ }
+
+
+
+ p{
+ .test_paragraph {color:red}
+}
+
+
+/*Hash is used for iD's*/
+#header{
+    height:100px;
+    width:300px;
+}
+
+h2,h3,h4{
+    background-color :#cccc99;
+    margin:5px;
+    border-style: solid;
+    border-color: black;
+    width:250px;
+    text-align:center;
+    border-width:4px;
+}
+.homemenu{
+    list-style:none;
+    text-align:center;
+
+}
+.homemenu li {
+    background-color :white;
+    display:inline-block;
+    text-color:black;
+    width:250px;
+    margin:5px;
+    border-style: solid;
+    border-color: black;
+    border-width:4px;
+}
+
+.homemenu li a{
+    display:inline-block;
+    color:black;
+    font-family:sans-serif;
+
+}
+
+.homemenu li:hover{
+    background-color : chocolate;
+
+}
+
+
+
+#backgroundmenu li{
+    background-color :white;
+    display:inline-block;
+    text-color:black;
+    width:250px;
+    margin-left:120px;
+    border-style: solid;
+    border-color: black;
+    border-width:4px;
+}
+#backgroundmenu li:hover{
+    background-color : chocolate;
+
+}
+#backgroundmenu li a{
+    display:inline-block;
+    color:black; /*text color*/
+    font-family:sans-serif;
+
+}
+.contactmenu li{
+    background-color :#cccc99;
+    display:inline-block;
+    width:250px;
+    margin:5px;
+    border-style: solid;
+    border-color: black;
+    border-width:4px;
+}
+.projectmenu li{
+background-color :white;
+    display:inline-block;
+    text-color:black;
+    width:250px;
+    margin-left:120px;
+    border-style: solid;
+    border-color: black;
+    border-width:4px;
+}
+.pro li{
+    background-color :#cccc99;
+    width:250px;
+    margin:5px;
+    border-style: solid;
+    border-color: black;
+    border-width:4px;
+}
+
+    pre{
+        background-color:#cccc99;
+    }
+
+ /*Home*/
+ .home{
+
+ }
+
+ /*background*/
+
+ #header{
+
+     height:100px;
+     width:600px;
+     text-align:center;
+
+ }
+ .first_column{
+    /*postition:absolute;
+    top:5px;
+    left:5px;
+    background-color: yellow;
+    width:100px;*/
+     float:left;
+     background-color:red;
+     width:400px;
+ }
+ .second_column{
+   /*  background-color:red;
+     margin-left: 310px;
+       width:100px;*/
+   float:left;
+     background-color:yellow;
+     width:600px
+
+ }
+ .third_column{
+    /* background-color:red;
+     margin-left: 310px;
+     margin-right:300px;
+      width:100px;*/
+      float:right;
+      background-color:blue;
+      width:400px;
+ }
+
+.amos{
+    clear:left;/* Places item on its own line */
+}
+
+ /*project_work */
+ .project{
+     height:5000px;
+
+ }
+.container{
+
+    background:rgba(0,0,0,.4);
+    height:200px;
+    width:200px;
+}
+
+.greenBox{
+     width:100px;
+    height:100px;
+    background:#5b8054;
+    position:absolute;/*Will move along with the page scrolling*/
+    margin-bottom: 10px;
+
+}
+.blueBox{
+     width:100px;
+    height:100px;
+    background:#627da0;
+    margin-bottom: 10px;
+    position:fixed; /*Other elements dont respond to position and is relative to the browser window*/
+    top:100px;/*Configure using left/right/bottom*/
+
+}
+.redBox{
+    width:100px;
+    height:100px;
+    background:red;
+    margin-bottom: 10px;
+    position:relative; /*Other elements dont respond to position and is relative to the browser window*/
+    z-index: = -1
+    top:0;/*Relative to other elements*/
+
+}
+
+.whiteBox{
+    width:100px;
+    height:100px;
+    background:white;
+    margin-bottom: 10px;
+    position:static;
+    top:100px;
+
+}
+.redBox1{
+    width:100px;
+    height:100px;
+    background:red;
+    margin-bottom: 10px;
+    left:70px;
+    position:relative;
+    top:100px;/*Relative to other elements*/
+    z-index: 1; /*Changes the position of the element back or front*/
+}
+
+.whiteBox1{
+    width:100px;
+    height:100px;
+    background:white;
+    margin-bottom: 10px;
+    position:relative;
+}
+
+
+.yellowBox{
+    width:100px;
+    height:100px;
+    background:yellow;
+    margin-bottom: 10px;
+    margin:0 auto;/*Center an element*/
+}
+
+ /*contact*/
+
+ .contact{
+
+ }
+
+
+ /*Buttons*/
+
+ #buttons{
+
+     margin:200px 0 300px 0;/*Position of the buttons */
+
+
+ }
+
+ .contactpara1{
+     position:relative;
+     background-color: white;
+     top:50px;/*From top*/
+     clear:left;/*Places item on a new line*/
+
+ }
+
+ #page1{
+
+     height:1000px;
+     background:#5b8054;
+
+ }
+
+ #page2{
+
+height:700px;
+background:red;
+
+ }
+ #page3{
+
+height:1000px;
+background:blue;
+
+
+ }

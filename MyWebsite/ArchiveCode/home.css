@@ -1,0 +1,119 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : 27-Jul-2017, 15:26:50
+    Author     : Devonte1
+*/
+
+/*Use Hash for ID's and . for classes */
+
+.row{
+  height:30em;
+}
+
+.elementalign{
+  display:block;
+  margin:30px;
+}
+.elementalign img{
+  margin-top: 20px;
+  margin-bottom: -10px; #Brings item upwards
+}
+.elementalign a{
+  margin-left:1px;
+  color:black;
+  font-weight: bold;
+
+}
+.elementalign p{
+margin-top: -10px
+}
+
+
+
+/*Image/header/text css */
+.elementalign1{
+  display:block;
+  margin:30px;
+}
+.elementalign1 img{
+  margin-top: 20px;
+  margin-bottom: -10px; #Brings item upwards
+}
+.elementalign1 a{
+  margin-left:1px;
+  color:black;
+  font-weight: bold;
+}
+.elementalign1 p{
+margin-top: -10px
+}
+
+/*Image/header/text css */
+
+.elementalign2{
+  display:block;
+  margin:30px;
+}
+.elementalign2 img{
+  margin-top: 20px;
+  margin-bottom: -10px; #Brings item upwards
+}
+.elementalign2 a{
+  margin-left:1px;
+  color:black;
+  font-weight: bold;
+}
+.elementalign2 p{
+margin-top: -10px
+}
+
+#element1{
+
+}
+
+#HomeImages img{
+
+    margin:30px;
+}
+
+#HomeImages{
+
+    margin-left:40px;
+}
+
+
+#NavWrapper li{
+      list-style:none;
+      text-align:center;
+      display:inline-block;
+      list-style-type: none;
+      margin-right: 130px;
+}
+
+
+#NavWrapper{
+  margin-left: 40px;
+
+
+}
+ #page1{
+
+     height:800px;
+     background:white;
+ }
+
+ #page2{
+
+ height:550px;
+background: white;
+
+ }
+ #page3{
+background-color:black;
+height:150px;
+
+ }

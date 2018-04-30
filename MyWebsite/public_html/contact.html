@@ -1,64 +1,131 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <!--
 HTML
 To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
+--><!DOCTYPE html>
+<!--
+HTML
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+
+<script src="../javascript/portfolio.js"></script>*/
 -->
 <html>
-    <head>
-        <!-- Bootstrap links -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        <!-- Link to CSS code -->
-        <link rel="stylesheet"   href="csscode.css"  type = "text/css"/>
-        
- 
-            
-        <title>My Portfolio </title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
- 
-    <body>   
-         <ul class =" contactmenu" >
-             <li>
-                 <a href="home.html">Home</a>
-             </li> <!--Unordered list-->
-             <li>
-                 <a href="background.html">Background</a>
-             </li>
-             <li>
-                 <a href="project_work.html">Project work and experience</a>
-             </li>
-             <li>
-                 <a href="contact.html">Contact</a>
-             </li>
-         </ul>
-        <p>Welcome to the portfolio</p> 
+<head>
+  <!-- Bootstrap links -->
+  <link rel="stylesheet" href="../bootstrap-4.0.0/dist/css/bootstrap.min.css">
+  <script src="../bootstrap-4.0.0/dist/js/bootstrap.min.js"></script>
+  <!-- Link to CSS code -->
+  <link rel="stylesheet"   type = "text/css" href="../css/background.css"  />
+  <title>My Portfolio </title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body class = "homebody">
+  <div id="page1">
+    <a id="about" class="smooth"></a>
+    About page content goes here.
+    <form action="/action_page.php">
+      Name:<br>
+      <input type="text" name="firstname" value="Mickey"><br>
+      Email:<br>
+      <input type="text" name="lastname" value="Mouse"><br><br>
+      <input type="submit" value="Submit">
+    </form>
 
-        <a href="background.html">Click here for next page</a> 
-        <h1>Devonte</h1><!--Headings H1 Large H2-H6 sub headings-->
-        <div class = contactpara1>The meaning of the name Devonte is From The Tribe Of Dumnonii. The origin of the name Devonte is American. <br> This is the culture in which the name originated, or in the case of a word, the language.</div>
-        <hr />
-        <h2>Daneil</h2>
-        <p> A hebrew name, Similar to Daniel, the name translates to 'Champion'
-            basically, if you give your child this name you have<br> forever blessed him with a life of bad-assery. of course, if your son prefers knitting and mini-golf, you may just want to change his<br>name to something a little more suitable.... 
-Craig, perhaps.</p><!--Block element-->
-         <hr />
-        <h3>Campbell</h3>  
-         <hr />
-         <ul>
-             <li>first</li> <!--Unordered list-->
-             <li>second</li>
-             <li>third</li>
-         </ul>
-         <ol>
-             
-             
-         </ol>
 
-        <h4>Amos</h4>
 
-    </body>
-</html>
+
+  <div id="page2">
+    <a id="portfolio" class="smooth"></a>
+    <div class = "container">
+      <div class = "row">
+        <div id="element1">
+          <div class= "elementalign">
+            <img src="../images/firstpageheader.jpg" alt = Homepageimage width = "320" height="240">
+          </div>
+          <div class= "elementalign">
+            <a href="#background" id="button">Background</a>
+          </div>
+          <div class= "elementalign">
+            <p>17 the drive thornton heath, surrey, CR78LB </p>
+          </div>
+        </div>
+        <div id="element2">
+          <div class= "elementalign1">
+            <img src="../images/firstpageheader.jpg" alt = Homepageimage width = "320" height="240">
+          </div>
+          <div class= "elementalign1">
+            <a href="#projects">Projects and Experience</a>
+          </div>
+          <div class= "elementalign1">
+            <p>17 the drive thornton heath, surrey, CR78LB </p>
+          </div>
+        </div>
+
+        <div id="element3">
+          <div class= "elementalign2">
+            <img src="../images/firstpageheader.jpg" alt = Homepageimage width = "320" height="240">
+          </div>
+          <div class= "elementalign2">
+            <a href="#training" id="button">Training and Certifications</a>
+          </div>
+          <div class= "elementalign2">
+            <p>17 the drive thornton heath, surrey, CR78LB </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="page3">
+    <a id="contact" class="smooth"></a>
+    Contact page content goes here.
+
+    <form action="/action_page.php">
+      Name:<br>
+      <input type="text" name="firstname" value="Mickey"><br>
+      Email:<br>
+      <input type="text" name="lastname" value="Mouse"><br><br>
+      <input type="submit" value="Submit">
+    </form>
+
+    <ul id ="backgroundmenu" >
+        <li>
+            <a href="home.html">Home</a>
+        </li> <!--Unordered list-->
+        <li>
+            <a href="background.html">Background</a>
+        </li>
+        <li>
+            <a href="project_work.html">Project work and experience</a>
+        </li>
+        <li>
+            <a href="contact.html">Contact</a>
+        </li>
+    </ul>
+    </div>
+
+    <div id="page4">
+      <div class="split left">
+  <div class="centered">
+    <img src="img_avatar2.png" alt="Avatar woman">
+    <h2>Jane Flex</h2>
+    <p>Some text.</p>
+  </div>
+</div>
+
+<div class="split right">
+  <div class="centered">
+    <img src="img_avatar.png" alt="Avatar man">
+    <h2>John Doe</h2>
+    <p>Some text here too.</p>
+  </div>
+</div>
+      </div>
+  </body>
+  </html>

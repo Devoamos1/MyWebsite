@@ -1,0 +1,87 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : 27-Jul-2017, 15:26:50
+    Author     : Devonte1
+*/
+
+/*Use Hash for ID's and . for classes */
+
+.elementalign{
+  display:block;
+  margin:30px;
+}
+
+.elementalign1{
+  display:block;
+  margin:30px;
+}
+.elementalign1 img{
+  margin-top: 20px;
+}
+.elementalign1 a{
+  margin-left:1px;
+
+}
+.elementalign1 p{
+
+}
+
+.elementalign2{
+  display:block;
+  margin:30px;
+}
+.elementalign2 a{
+  margin-left:1px;
+}
+
+#element1{
+
+}
+
+#HomeImages img{
+
+    margin:30px;
+}
+
+#HomeImages{
+
+    margin-left:40px;
+}
+
+
+#NavWrapper li{
+      list-style:none;
+      text-align:center;
+      display:inline-block;
+      list-style-type: none;
+      margin-right: 130px;
+}
+
+
+#NavWrapper{
+  margin-left: 40px;
+
+
+}
+ #page1{
+
+     height:800px;
+     background:#5b8054;
+ }
+
+ #page2{
+
+ height:550px;
+background: white;
+
+ }
+ #page3{
+
+height:1000px;
+background:blue;
+
+ }

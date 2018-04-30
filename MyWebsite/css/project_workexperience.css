@@ -1,0 +1,121 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : 27-Jul-2017, 15:26:50
+    Author     : Devonte1
+*/
+
+
+
+ /* Pen-specific styles */*
+
+
+ {  box-sizing: border-box;
+ }
+ body {
+   font-size: 1.25rem;
+   font-family: sans-serif;
+   line-height: 150%;
+   text-shadow: 0 2px 2px #b6701e;
+
+   }
+
+   section {
+     color: #fff;
+     text-align: center;
+     }
+  div {
+
+     }
+     img{
+       display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+
+     }
+   .projectinfo {
+     width:60%;
+     text-align:center;
+     padding:10px;
+     margin-left: 20%;
+     margin-top: 20%;
+     }
+     .projectinfo a {
+
+       }
+/*     h1 {
+       font-size: 1.75rem;
+       margin: 0 0 0.75rem 0;
+       text-align:center;
+       }*/
+
+       /* Pattern styles */
+       .container {
+         display: inline-block;
+         width: 50%;
+         height:29.57em;
+         }
+         .left-half {
+           background-color: white;
+           position: absolute;
+           left: 0px;
+           height:30em;
+           width: 50%;
+           }
+          .right-half {
+            background-color: #b6701e;
+            position: absolute;
+            right: 0px;
+            height:30em;
+            width: 50%;
+          }
+          .left-half1 {
+            background-color:red;
+            position: absolute;
+            left: 0px;
+            height:30em;
+            width: 50%;
+            }
+           .right-half1{
+             background-color:black;
+             position: absolute;
+             right: 0px;
+             height:30em;
+             width: 50%;
+           }
+           .left-half2 {
+             background-color:red;
+             position: absolute;
+             left: 0px;
+             height:30em;
+             width: 50%;
+             }
+            .right-half2{
+              background-color:black;
+              position: absolute;
+              right: 0px;
+              height:30em;
+              width: 50%;
+            }
+            .left-half3 {
+              background-color:red;
+              position: absolute;
+              left: 0px;
+              height:30em;
+              width: 50%;
+              }
+             .right-half3{
+               background-color:black;
+               position: absolute;
+               right: 0px;
+               height:30em;
+               width: 50%;
+             }
+
+             .row{
+               height:30em;
+             }
