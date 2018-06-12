@@ -362,7 +362,7 @@ and open the template in the editor.
      }
      #page3{
     background: #1B2128;
-    height:400px;
+    height:350px;
 
      }
 
@@ -417,6 +417,10 @@ and open the template in the editor.
         color: inherit;
     }
     .contactform h1{
+      color:white;
+      font-size:4vw;
+    }
+    .contactform p{
       color:white;
       font-size:4vw;
     }
