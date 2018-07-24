@@ -73,7 +73,7 @@ img {
 
 }
 
-.page3{
+.contactdetails{
   background:black;
   width:100%;
   height:710px;
@@ -184,32 +184,37 @@ form {
   font-size:0.9em;
 }
 
-.contactform h1{
+.contactdetails h1{
   margin-top:40px;
-  color:black;
+ position: relative;
+  top: 15px;
+  color:white;
+  /* Center text */
+  -webkit-box-align:center;
+    -webkit-box-pack:center;
+    display:-webkit-box;
   font-size:4vw;
-  text-align: center;
+
 }
-.contactform p{
+.contactdetails p{
   margin-top:30px;
-  color:black;
+  color:white;
   font-size:4vw;
-  text-align: center;
+  padding: 0 0 20px
+
 }
 
 .connect h1{
   color:white;
   font-size:4vw;
-  margin-left: 40%;
+margin-bottom: 25px;
 
 
 }
 .connect{
   width:40px;
-  margin-top:40px;
-  margin-left: 40%;
   height: 40px;
-
+  display: inline;
 }
 .section {
   width: 100%;
