@@ -28,3 +28,11 @@
    } fade(true); //fade elements on page-load
    $(window).scroll(function(){fade(false);}); //fade elements on scroll
  });
+
+
+ $( document ).ready(function() {
+     $('.leftmenutrigger').on('click', function(e) {
+     $('.side-nav').toggleClass("open");
+     e.preventDefault();
+    });
+});
