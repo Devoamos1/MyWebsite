@@ -1,42 +1,49 @@
-/* google font */
-@import url(https://fonts.googleapis.com/css?family=Montserrat);
-
-$nav-height: 60px;
-
-body {
-  text-align:center;
-  margin:0;
-  padding:0;
-  font-family: 'Montserrat', sans-serif;
-  color:rgba(0,0,0,0.87);
+@import url('//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css');
+.universal-inline-block {
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
 }
-
-.nav {
-  width:100%;
-  height:$nav-height; //height of nav div
-  font-size:20px;
-  line-height:$nav-height; //sets line height to same height of div to centre text vertically
-  background:#ff5252;
-  color:#fff;
-  position:relative;
-  margin-bottom:-$nav-height; //negative margin set to div height to stop the page jumping when the sticky fixed class is added
-  z-index:3;
-  text-transform:uppercase;
+.social-icons {
+  text-align: center;
+  font-family: "Open Sans";
+  font-weight: 300;
+  font-size: 1.5em;
+  color: #448aaf;
 }
-
-.content {
-  width:640px;
-  height:500vh;
-  font-size:14px;
-  padding-top:100px;
-  margin:0 auto 0;
+.social-icons h1 {
+  margin: 40px 0;
 }
-
-.sticky {
-  position:fixed;
-  top:0;
+.social-icons ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
-
-p {
-  line-height:2;
+.social-icons ul li {
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  vertical-align: middle;
+}
+.social-icons ul li a {
+  display: block;
+  font-size: 1.4em;
+  margin: 0 5px;
+  text-decoration: none;
+}
+.social-icons ul li a i {
+  color: #448aaf;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+.social-icons ul li a:hover i {
+  color: #275066;
+}
+.social-icons ul li a:focus i,
+.social-icons ul li a:active i {
+  transition: none;
+  color: #0b161c;
 }

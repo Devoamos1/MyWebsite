@@ -24,7 +24,7 @@ Author     : Devonte1
   display: flex;
   flex-wrap: wrap;
 }
-.page1{
+.frontpage{
   height:680px;
   width:100%;
 
@@ -184,8 +184,8 @@ form {
   font-size:0.9em;
 }
 
-.contactdetails h1{
-  margin-top:40px;
+.contacttitle{
+  margin-top:20px;
  position: relative;
   top: 15px;
   color:black;
@@ -212,7 +212,7 @@ margin-bottom: 25px;
 }
 .connect{
   width:40px;
-  height: 40px;
+  height:0px;
   display: inline;
 }
 .section {
