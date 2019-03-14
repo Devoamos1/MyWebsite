@@ -16,6 +16,77 @@ Author     : Devonte1
 
 @media only screen and (max-width: 376px) {
 
+/* Page - Aethestics*/
+
+.nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: inherit;
+    -ms-flex-align: inherit;
+    align-items: inherit;
+}
+
+.header__nav {
+    -webkit-animation: header__fadeIn 2s ease 2.8s backwards;
+    animation: header__fadeIn 2s ease 2.8s backwards;
+}
+
+
+
+
+/* Page 1 - Introduction*/
+
+.circular-image{
+
+  display: block;
+  margin: 0 auto;
+width: 150px;
+
+}
+.frontpage{
+  height:680px;
+  width:100%;
+
+}
+
+.hometext h4 {
+  text-align: center;
+}
+.hometext p{
+
+  text-align: center;
+  font-size:0.9em;
+}
+
+/* Page 2 - Links*/
+
+.box{
+  text-align:center;
+  padding:10px;
+  display: block;
+}
+
+.box h3 a{
+  font-size:0.65em;
+}
+
+.box p{
+  font-size:0.9em;
+}
+
+
+
+/* Page 3 - Contact details*/
+
+.contactdetails p{
+  margin-top:30px;
+font-size:0.9em;
+text-align:center;
+
+}
+
   .socialmedia{
     margin-top: 30px;
     margin-right: 20px;
@@ -71,33 +142,14 @@ Author     : Devonte1
   display: flex;
   flex-wrap: wrap;
 }
-.frontpage{
-  height:680px;
-  width:100%;
 
-}
 
 .bottom-footer {
     background-color: #000000;
 }
 
- #hometext {
-
-margin-top: 60%;
-}
-#hometext h2 {
-
-  text-align: center;
-}
-
-#hometext h4{
-
-  text-align: center;
-}
-
-#hometext p{
-
-  text-align: center;
+.hometext{
+  margin-top: 120px;
 }
 
 #hometext img {
@@ -221,19 +273,7 @@ form {
 
 /* Contact info css */
 
-.box{
-  text-align:center;
-  padding:10px;
-  display: block;
-}
 
-.box h3 a{
-  font-size:0.65em;
-}
-
-.box p{
-  font-size:0.9em;
-}
 
 .contacttitle{
   margin-top:20px;
@@ -247,12 +287,7 @@ form {
   font-size:6vw;
 
 }
-.contactdetails p{
-  margin-top:30px;
-font-size:0.9em;
-text-align:center;
 
-}
 
 .connect h1{
   color:white;
@@ -341,20 +376,6 @@ a {
     margin-left: 50%;
 }
 
-.nav {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-align: inherit;
-    -ms-flex-align: inherit;
-    align-items: inherit;
-}
-
-.header__nav {
-    -webkit-animation: header__fadeIn 2s ease 2.8s backwards;
-    animation: header__fadeIn 2s ease 2.8s backwards;
-}
 
 
 
@@ -370,7 +391,7 @@ a {
 .navbar-nav.side-nav{background: #585f66;box-shadow: 2px 1px 2px rgba(0,0,0,.1);position:fixed;top:56px;flex-direction: column!important;left:-220px;width:200px;overflow-y:auto;bottom:0;overflow-x:hidden;padding-bottom:40px}
 }
 .animate{-webkit-transition:all .3s ease-in-out;-moz-transition:all .3s ease-in-out;-o-transition:all .3s ease-in-out;-ms-transition:all .3s ease-in-out;transition:all .3s ease-in-out}
-
+}
 
 /* Mobile Styles */
 @media only screen and (max-width: 600px) {
@@ -434,5 +455,4 @@ a {
   a.socialIcon:hover, .socialHoverClass {
   	color:#44BCDD;
   }
-}
 }
