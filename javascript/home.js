@@ -30,9 +30,8 @@
  });
 
 
- $( document ).ready(function() {
-     $('.leftmenutrigger').on('click', function(e) {
-     $('.side-nav').toggleClass("open");
-     e.preventDefault();
-    });
-});
+ $(document).ready(function() {
+            $(".menu-icon").on("click", function() {
+                  $("nav ul").toggleClass("showing");
+            });
+      });
