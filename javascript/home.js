@@ -14,7 +14,7 @@
      var max = 0.7;
      var threshold = 0.01;
 
-     $(".box").each(function() {
+     $(".linkdivs").each(function() {
        /* Check the location of each desired element */
        var objectBottom = $(this).offset().top + $(this).outerHeight();
 

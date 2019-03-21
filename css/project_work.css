@@ -8,6 +8,7 @@ and open the template in the editor.
     Author     : Devonte1
 */
 
+
 @media (max-width: 740px){
 .uk-navbar-nav {
     margin-left: -8px;
@@ -179,137 +180,188 @@ html {
 }
 
 /*Phone */
-@media only screen and (max-width: 376px) {
 
   @import url(https://fonts.googleapis.com/css?family=Merriweather);
-body {
-	background:#fff;
-	margin:0;
-	padding:0;
-}
-.menu {
-	background:#f0f0f0;
-	display:none;
-	width:100%;
-}
-.menu ul {
-	font-family: 'Merriweather', serif;
-	list-style:none;
-	margin:0;
-	padding:0;
-	text-align:center;
-}
-.menu ul li {
-	color:#333;
-	font-size:12px;
-	letter-spacing:2px;
-	padding:15px 0;
-	text-transform:uppercase;
-}
-.menu ul li:hover {
-	background:#e9e9e9;
-}
-.menu a {
-  text-decoration:none;
-	color: #333;
-}
-.menu-toggle {
-	background:none;
-  color: #333;
-	width:100%;
-	text-align:center;
-	padding:10px 0;
-	font-size:25px;
-}
-.menu-toggle a {
-	text-decoration:none;
-	color: #333;
-}
-.about-pen {
-  width:100%;
-  font-family: 'Merriweather', serif;
-  font-size:40px;
-  margin-top:100px;
-  text-align:center;
-  color:#333;
-}
+  @media only screen and (max-width: 376px) {
+    html, body {
+          margin: 0;
+          padding: 0;
+          width: 100%;
+    }
+      /* ***********************************************************
+      * #global-nav
+      * *********************************************************** */
+      .open #global-nav {
+        z-index: 1000;
+        visibility: visible;
+      }
+      #global-nav {
+        visibility: hidden;
+        position: fixed;
+        display: table;
+        vertical-align: middle;
+        color: #fff;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        text-align: center;
+        font-size: 16px;
+      }
+      #global-nav ul {
+        display: table-cell;
+        vertical-align: middle;
+        list-style: none;
+        padding: 30px;
+      }
+      #global-nav a {
+        color: #fff;
+        text-decoration: none;
+        display: block;
+        padding: 10px 0;
+      }
 
+      /* ***********************************************************
+      * nav-list
+      * *********************************************************** */
+      #global-nav ul li {
+        opacity: 0;
+        -webkit-transform: scaleX(0) translateX(-260px);
+        transform: scaleX(0) translateX(-260px);
+        -webkit-transition: none;
+        transition: none;
+      }
+      .open #global-nav ul li {
+        opacity: 1;
+        -webkit-transform: scaleX(1) translateX(0);
+        transform: scaleX(1) translateX(0);
 
+        -webkit-transition: all .3s ease-out;
+        transition: all .3s ease-out;
 
-  .toggle-mnu {
-  display: block;
-  width: 28px;
-  height: 28px;
-  margin-top: 14px;
-}
-.toggle-mnu span:after, .toggle-mnu span:before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 9px;
-}
-.toggle-mnu span:after {
-  top: 18px;
-}
-.toggle-mnu span {
-  position: relative;
-  display: block;
-}
-.toggle-mnu span, .toggle-mnu span:after, .toggle-mnu span:before {
-  width: 100%;
-  height: 2px;
-  background-color: #fff;
-  transition: all 0.3s;
-  backface-visibility: hidden;
-  border-radius: 2px;
-}
-.toggle-mnu.on span {
-  background-color: transparent;
-}
-.toggle-mnu.on span:before {
-  transform: rotate(45deg) translate(-1px, 0px);
-}
-.toggle-mnu.on span:after {
-  transform: rotate(-45deg) translate(6px, -7px);
-}
+        -webkit-transition-delay: .1s;
+        transition-delay: .1s;
+      }
+      .open #global-nav ul li:nth-child(2) {
+        -webkit-transition-delay: .2s;
+        transition-delay: .2s;
+      }
+      .open #global-nav ul li:nth-child(3) {
+        -webkit-transition-delay: .3s;
+        transition-delay: .3s;
+      }
+      .open #global-nav ul li:nth-child(4) {
+        -webkit-transition-delay: .4s;
+        transition-delay: .4s;
+      }
+      .open #global-nav ul li:nth-child(5) {
+        -webkit-transition-delay: .5s;
+        transition-delay: .5s;
+      }
 
+      /* ***********************************************************
+      * #nav-bg
+      * *********************************************************** */
+      #nav-bg {
+        content: "";
+        width: 60px;
+        height: 60px;
+        right: 10px;
+        top:10px;
+        bottom: 10px;
+        display: block;
+        position: fixed;
+        background:  	#303030;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        -webkit-transition: all .3s ease-out;
+        transition: all .3s ease-out;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        -webkit-transform: scale(1);
+        transform: scale(1);
 
-.mobile-menu-toggler {
-  display: block;
-  width: 28px;
-  height: 28px;
-  margin-top: 14px;
-}
-.mobile-menu-toggler span:after, .mobile-menu-toggler span:before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 9px;
-}
-.mobile-menu-toggler span:after {
-  top: 18px;
-}
-.mobile-menu-toggler span {
-  position: relative;
-  display: block;
-}
-.mobile-menu-toggler span, .mobile-menu-toggler span:after, .mobile-menu-toggler span:before {
-  width: 100%;
-  height: 2px;
-  background-color: #fff;
-  transition: all 0.3s;
-  backface-visibility: hidden;
-  border-radius: 2px;
-}
-.mobile-menu-toggler span {
-  background-color: transparent;
-}
-.mobile-menu-toggler span:before {
-  transform: rotate(45deg) translate(-1px, 0px);
-}
-.mobile-menu-toggler span:after {
-  transform: rotate(-45deg) translate(6px, -7px);
-}
+      }
+      .open #nav-bg {
+        -webkit-transform: scale(30);
+        transform: scale(30);
+        -webkit-transition: all .6s ease-out;
+        transition: all .6s ease-out;
+      }
+
+      /* ***********************************************************
+      * #nav-toggle
+      * *********************************************************** */
+
+      /*  Toggle location*/
+      #nav-toggle {
+        display: block;
+        position: fixed;
+        top: 10px;
+        right: 10px;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        padding: 15px;
+        z-index: 1001;
+        -webkit-tap-highlight-color:rgba(0,0,0,0);
+      }
+
+      #nav-toggle div {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+      }
+
+      /*  Toggle Shape  */
+
+      #nav-toggle span {
+      /*   display: block; */
+        height: 2px;
+        width: 100%;
+        background: #fff;
+      /*   left: 0; */
+        zoom: 1;
+        -webkit-transition: .35s ease-in-out;
+        transition: .35s ease-in-out;
+
+        margin: 4px 0;
+      }
+
+      #nav-toggle span:nth-child(1) {
+        top: 0;
+      }
+      #nav-toggle span:nth-child(2) {
+        top: 8px;
+      }
+      #nav-toggle span:nth-child(3) {
+        top: 16px;
+      }
+
+      .open #nav-toggle {
+        background: transparent;
+      }
+
+      .open #nav-toggle span {
+        background: #fff;
+      }
+
+      .open #nav-toggle span:nth-child(1) {
+        top: 9px;
+        -webkit-transform: translateY(10px) rotate(-135deg);
+        transform: translateY(10px) rotate(-135deg);
+        zoom: 1;
+      }
+      .open #nav-toggle span:nth-child(2) {
+        width: 0;
+        left: 50%;
+      }
+      .open #nav-toggle span:nth-child(3) {
+        top: 9px;
+        -webkit-transform: translateY(-10px) rotate(135deg);
+        transform: translateY(-10px) rotate(135deg);
+        zoom: 1;
+      }
+
 
 
   element.style {
