@@ -100,19 +100,12 @@ element.style {
     padding-left: 15px;
     padding-right: 15px;
 }
-* {
-    font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-}
+
 user agent stylesheet
 article, aside, footer, header, hgroup, main, nav, section {
     display: block;
 }
-* {
-    font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-}
-* {
-    font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-}
+
 :root {
     --uk-leader-fill-content: .;
 }
@@ -131,9 +124,7 @@ html {
     background: #fff;
     color: #666;
 }
-* {
-    font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-}
+
 .uk-container::after, .uk-container::before {
     content: "";
     display: table;
@@ -188,6 +179,15 @@ html {
           padding: 0;
           width: 100%;
     }
+
+    .uk-container h1 {
+      text-align: center;
+      padding-bottom: 20px;
+    }
+    .uk-container h2 {
+      text-align: center;
+    }
+
       /* ***********************************************************
       * #global-nav
       * *********************************************************** */
@@ -368,27 +368,15 @@ html {
       height: 81px;
       margin: 0px;
   }
-  * {
-      font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-  }
+
   div[Attributes Style] {
   }
   user agent stylesheet
   div {
       display: block;
   }
-  * {
-      font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-  }
-  :root {
-      --uk-leader-fill-content: .;
-  }
-  :root {
-      --uk-breakpoint-s: 640px;
-      --uk-breakpoint-m: 960px;
-      --uk-breakpoint-l: 1200px;
-      --uk-breakpoint-xl: 1600px;
-  }
+
+
   html {
       font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
       font-size: 16px;
@@ -398,9 +386,7 @@ html {
       background: #fff;
       color: #666;
   }
-  * {
-      font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-  }
+
   ::-webkit-scrollbar {
       width: 7px;
   }
@@ -442,37 +428,13 @@ element.style {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
 }
-* {
-    font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-}
+
 user agent stylesheet
 div {
     display: block;
 }
-* {
-    font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-}
-:root {
-    --uk-leader-fill-content: .;
-}
-:root {
-    --uk-breakpoint-s: 640px;
-    --uk-breakpoint-m: 960px;
-    --uk-breakpoint-l: 1200px;
-    --uk-breakpoint-xl: 1600px;
-}
-html {
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.5;
-    -webkit-text-size-adjust: 100%;
-    background: #fff;
-    color: #666;
-}
-* {
-    font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-}
+
+
 ::-webkit-scrollbar {
     width: 7px;
 }
@@ -524,28 +486,12 @@ html {
     padding-left: 15px;
     padding-right: 15px;
 }
-* {
-    font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-}
+
 user agent stylesheet
 article, aside, footer, header, hgroup, main, nav, section {
     display: block;
 }
-* {
-    font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-}
-* {
-    font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-}
-:root {
-    --uk-leader-fill-content: .;
-}
-:root {
-    --uk-breakpoint-s: 640px;
-    --uk-breakpoint-m: 960px;
-    --uk-breakpoint-l: 1200px;
-    --uk-breakpoint-xl: 1600px;
-}
+
 html {
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
     font-size: 16px;
@@ -555,9 +501,7 @@ html {
     background: #fff;
     color: #666;
 }
-* {
-    font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-}
+
 .uk-container::after, .uk-container::before {
     content: "";
     display: table;
@@ -608,31 +552,12 @@ html {
       display: flex;
       align-items: center;
   }
-  * {
-      font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-  }
+
   user agent stylesheet
   div {
       display: block;
   }
-  * {
-      font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-  }
-  * {
-      font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-  }
-  * {
-      font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-  }
-  :root {
-      --uk-leader-fill-content: .;
-  }
-  :root {
-      --uk-breakpoint-s: 640px;
-      --uk-breakpoint-m: 960px;
-      --uk-breakpoint-l: 1200px;
-      --uk-breakpoint-xl: 1600px;
-  }
+
   html {
       font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
       font-size: 16px;
@@ -642,9 +567,7 @@ html {
       background: #fff;
       color: #666;
   }
-  * {
-      font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-  }
+
   .uk-navbar-container>::after, .uk-navbar-container>::before {
       display: none!important;
   }
@@ -695,36 +618,15 @@ html {
 a {
     -webkit-text-decoration-skip: objects;
 }
-* {
-    font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-}
+
 user agent stylesheet
 a:-webkit-any-link {
     color: -webkit-link;
     cursor: pointer;
     text-decoration: underline;
 }
-* {
-    font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-}
-* {
-    font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-}
-* {
-    font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-}
-* {
-    font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-}
-:root {
-    --uk-leader-fill-content: .;
-}
-:root {
-    --uk-breakpoint-s: 640px;
-    --uk-breakpoint-m: 960px;
-    --uk-breakpoint-l: 1200px;
-    --uk-breakpoint-xl: 1600px;
-}
+
+
 html {
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
     font-size: 16px;
@@ -734,9 +636,7 @@ html {
     background: #fff;
     color: #666;
 }
-* {
-    font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-}
+
 ::-webkit-scrollbar {
     width: 7px;
 }
@@ -776,43 +676,13 @@ html {
     display: flex;
     align-items: center;
 }
-* {
-    font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-}
+
 user agent stylesheet
 div {
     display: block;
 }
-* {
-    font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-}
-* {
-    font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-}
-* {
-    font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-}
-:root {
-    --uk-leader-fill-content: .;
-}
-:root {
-    --uk-breakpoint-s: 640px;
-    --uk-breakpoint-m: 960px;
-    --uk-breakpoint-l: 1200px;
-    --uk-breakpoint-xl: 1600px;
-}
-html {
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.5;
-    -webkit-text-size-adjust: 100%;
-    background: #fff;
-    color: #666;
-}
-* {
-    font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-}
+
+
 .uk-navbar-container>::after, .uk-navbar-container>::before {
     display: none!important;
 }
@@ -866,27 +736,8 @@ a:-webkit-any-link {
     cursor: pointer;
     text-decoration: underline;
 }
-* {
-    font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-}
-* {
-    font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-}
-* {
-    font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-}
-* {
-    font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-}
-:root {
-    --uk-leader-fill-content: .;
-}
-:root {
-    --uk-breakpoint-s: 640px;
-    --uk-breakpoint-m: 960px;
-    --uk-breakpoint-l: 1200px;
-    --uk-breakpoint-xl: 1600px;
-}
+
+
 html {
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
     font-size: 16px;
@@ -896,9 +747,7 @@ html {
     background: #fff;
     color: #666;
 }
-* {
-    font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-}
+
 .navbar-download-button .uk-button-text::before {
     border-bottom: none;
 }
@@ -953,10 +802,6 @@ html {
     position: relative;
 }
 
-* {
-    font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-}
-
 .navbar-download-button span {
     color: #ffffff;
 }
@@ -968,27 +813,14 @@ html {
 a {
     -webkit-text-decoration-skip: objects;
 }
-* {
-    font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-}
+
 user agent stylesheet
 a:-webkit-any-link {
     color: -webkit-link;
     cursor: pointer;
     text-decoration: underline;
 }
-* {
-    font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-}
-* {
-    font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-}
-* {
-    font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-}
-* {
-    font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-}
+
 :root {
     --uk-leader-fill-content: .;
 }
@@ -1007,9 +839,7 @@ html {
     background: #fff;
     color: #666;
 }
-* {
-    font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-}
+
 ::-webkit-scrollbar {
     width: 7px;
 }
@@ -1043,22 +873,12 @@ html {
       display: flex;
       align-items: center;
   }
-  * {
-      font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-  }
+
   user agent stylesheet
   div {
       display: block;
   }
-  * {
-      font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-  }
-  * {
-      font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-  }
-  * {
-      font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-  }
+
   :root {
       --uk-leader-fill-content: .;
   }
@@ -1131,9 +951,7 @@ ol, ul {
 address, dl, fieldset, figure, ol, p, pre, ul {
     margin: 0 0 20px 0;
 }
-* {
-    font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-}
+
 user agent stylesheet
 ul, menu, dir {
     display: block;
@@ -1144,18 +962,7 @@ ul, menu, dir {
     margin-inline-end: 0px;
     padding-inline-start: 40px;
 }
-* {
-    font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-}
-* {
-    font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-}
-* {
-    font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-}
-* {
-    font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-}
+
 :root {
     --uk-leader-fill-content: .;
 }
@@ -1174,9 +981,7 @@ html {
     background: #fff;
     color: #666;
 }
-* {
-    font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-}
+
 ::-webkit-scrollbar {
     width: 7px;
 }
@@ -1218,9 +1023,7 @@ html {
       -webkit-backface-visibility: hidden;
       backface-visibility: hidden;
   }
-  * {
-      font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-  }
+
   user agent stylesheet
   div {
       display: block;
@@ -1246,9 +1049,7 @@ html {
       background: #fff;
       color: #666;
   }
-  * {
-      font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-  }
+
   ::-webkit-scrollbar {
       width: 7px;
   }
@@ -1294,6 +1095,8 @@ html {
   .uk-container-expand {
       max-width: none;
   }
+
+
   .uk-container {
       box-sizing: content-box;
       max-width: 1200px;
@@ -1302,19 +1105,12 @@ html {
       padding-left: 15px;
       padding-right: 15px;
   }
-  * {
-      font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-  }
+
   user agent stylesheet
   article, aside, footer, header, hgroup, main, nav, section {
       display: block;
   }
-  * {
-      font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-  }
-  * {
-      font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-  }
+
   :root {
       --uk-leader-fill-content: .;
   }
@@ -1414,22 +1210,12 @@ element.style {
     float: left;
     margin-top: 15px;
 }
-* {
-    font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-}
+
 user agent stylesheet
 div {
     display: block;
 }
-* {
-    font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-}
-* {
-    font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-}
-* {
-    font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-}
+
 :root {
     --uk-leader-fill-content: .;
 }
@@ -1448,9 +1234,7 @@ html {
     background: #fff;
     color: #666;
 }
-* {
-    font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-}
+
 .uk-navbar-container>::after, .uk-navbar-container>::before {
     display: none!important;
 }
@@ -1501,18 +1285,7 @@ a:-webkit-any-link {
     cursor: pointer;
     text-decoration: underline;
 }
-* {
-    font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-}
-* {
-    font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-}
-* {
-    font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-}
-* {
-    font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-}
+
 :root {
     --uk-leader-fill-content: .;
 }
@@ -1531,9 +1304,7 @@ html {
     background: #fff;
     color: #666;
 }
-* {
-    font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-}
+
 ::-webkit-scrollbar {
     width: 7px;
 }
@@ -1571,35 +1342,14 @@ audio, canvas, img, video {
 audio, canvas, iframe, img, svg, video {
     vertical-align: middle;
 }
-* {
-    font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-}
-.uk-link, a {
-    color: #1e87f0;
-    text-decoration: none;
-    cursor: pointer;
-}
-* {
-    font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-}
+
 user agent stylesheet
 a:-webkit-any-link {
     color: -webkit-link;
     cursor: pointer;
     text-decoration: underline;
 }
-* {
-    font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-}
-* {
-    font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-}
-* {
-    font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-}
-* {
-    font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-}
+
 :root {
     --uk-leader-fill-content: .;
 }
@@ -1618,9 +1368,7 @@ html {
     background: #fff;
     color: #666;
 }
-* {
-    font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-}
+
 ::-webkit-scrollbar {
     width: 7px;
 }
@@ -1656,22 +1404,12 @@ html {
     float: left;
     margin-top: 15px;
 }
-* {
-    font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-}
+
 user agent stylesheet
 div {
     display: block;
 }
-* {
-    font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-}
-* {
-    font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-}
-* {
-    font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-}
+
 :root {
     --uk-leader-fill-content: .;
 }
@@ -1735,15 +1473,7 @@ user agent stylesheet
 div {
     display: block;
 }
-* {
-    font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-}
-* {
-    font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-}
-* {
-    font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-}
+
 :root {
     --uk-leader-fill-content: .;
 }
@@ -1800,9 +1530,7 @@ html {
     margin-right: 10px;
     /* border-top: 3px solid transparent; */
 }
-* {
-    font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-}
+
 user agent stylesheet
 li {
     display: list-item;
@@ -1814,9 +1542,7 @@ li {
     padding: 0;
     list-style: none;
 }
-* {
-    font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-}
+
 user agent stylesheet
 ul, menu, dir {
     display: block;
@@ -1827,18 +1553,7 @@ ul, menu, dir {
     margin-inline-end: 0px;
     padding-inline-start: 40px;
 }
-* {
-    font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-}
-* {
-    font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-}
-* {
-    font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-}
-* {
-    font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-}
+
 :root {
     --uk-leader-fill-content: .;
 }
@@ -1912,18 +1627,7 @@ ul, menu, dir {
     margin-inline-end: 0px;
     padding-inline-start: 40px;
 }
-* {
-    font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-}
-* {
-    font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-}
-* {
-    font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-}
-* {
-    font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-}
+
 :root {
     --uk-leader-fill-content: .;
 }
@@ -2003,55 +1707,9 @@ div {
 * {
     font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
 }
-:root {
-    --uk-leader-fill-content: .;
-}
-:root {
-    --uk-breakpoint-s: 640px;
-    --uk-breakpoint-m: 960px;
-    --uk-breakpoint-l: 1200px;
-    --uk-breakpoint-xl: 1600px;
-}
-html {
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.5;
-    -webkit-text-size-adjust: 100%;
-    background: #fff;
-    color: #666;
-}
-* {
-    font-family: "canada-type-gibson", -apple-system,BlinkMacSystemFont, sans-serif !important;
-}
-.uk-navbar-container>::after, .uk-navbar-container>::before {
-    display: none!important;
-}
-.uk-navbar-container>::after, .uk-navbar-container>::before {
-    display: none!important;
-}
-::-webkit-scrollbar {
-    width: 7px;
-}
-::-webkit-scrollbar-button {
-    width: 0px;
-    height: 0px;
-}
-::-webkit-scrollbar-corner {
-    background: transparent;
-}
-::-webkit-scrollbar-thumb {
-    background: #999;
-}
-::-webkit-scrollbar-track {
-    background: transparent;
-    border: 1px solid #eee;
-}
-::selection {
-    background: #39f;
-    color: #fff;
-    text-shadow: none;
-}
+
+
+
 
 }
 

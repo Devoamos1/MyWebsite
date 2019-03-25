@@ -584,7 +584,8 @@
     }
 
     .hometext{
-      margin-top: 140px;
+      height:50px;
+      margin-top: 70px;
       text-align: center;
     }
 
@@ -615,7 +616,9 @@
       display: block;
           margin-left:auto;
           margin-right: auto;
-        border-radius:50%;
+          border-radius: 100px;
+   -webkit-border-radius: 100px;
+   -moz-border-radius: 100px;
         width: 200px;
         height: 200px;
     }
@@ -643,8 +646,9 @@
 .linkdivs p{
   font-size:0.9em;
 }
-.linkdivs img{
-  border-radius: 50%;
+.linkimg{
+
+margin:auto;
 
 }
 
